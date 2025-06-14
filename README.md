@@ -40,10 +40,30 @@
       font-size: 18px;
       font-weight: bold;
     }
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #4f46e5;
+      color: white;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="nav">
+    <a href="/ucnova-site/">🏠 Bosh sahifa</a>
+    <a href="/ucnova-site/redeem.html">🎁 Redeem Kod</a>
+  </div>  <div class="box" style="margin-top: 80px">
     <h2>🎁 UC Kodni Aktivlashtirish</h2>
     <p>Promo kodni kiriting va sovg'angizni oling!</p>
     <input type="text" id="codeInput" placeholder="Promo kodni kiriting">
